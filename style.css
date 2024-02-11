@@ -18,7 +18,7 @@
 
 .logo {
   width: 200px;
-  padding: 20px 10px;
+  padding: 30px 10px;
   cursor: pointer;
   border-radius: 60px;
 }
@@ -87,4 +87,16 @@
 .content button img {
   width: 50px;
   margin-left: 10px;
+}
+
+.timer {
+  display: flex;
+}
+
+.timer div {
+  flex-basis: 100px;
+}
+.timer div p {
+  font-size: 60px;
+  margin-bottom: -14px;
 }
