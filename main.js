@@ -15,9 +15,9 @@ var x = setInterval(function () {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("hari").innerHTML = 00;
-    document.getElementById("jam").innerHTML = 00;
-    document.getElementById("menit").innerHTML = 00;
-    document.getElementById("detik").innerHTML = 00;
+    document.getElementById("hari").innerHTML = "00";
+    document.getElementById("jam").innerHTML = "00";
+    document.getElementById("menit").innerHTML = "00";
+    document.getElementById("detik").innerHTML = "00";
   }
 }, 1000);
