@@ -21,3 +21,21 @@ var x = setInterval(function () {
     document.getElementById("detik").innerHTML = "00";
   }
 }, 1000);
+
+let button1 = document.getElementById("button1");
+let button2 = document.getElementById("button2");
+let button3 = document.getElementById("button3");
+
+let sfx1 = document.getElementById("sfx1");
+let sfx2 = document.getElementById("sfx2");
+let sfx3 = document.getElementById("sfx3");
+
+button1.addEventListener("click", function () {
+  sfx1.play();
+});
+button2.addEventListener("click", function () {
+  sfx2.play();
+});
+button3.addEventListener("click", function () {
+  sfx3.play();
+});
