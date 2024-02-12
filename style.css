@@ -6,10 +6,10 @@
 }
 
 .container {
-  width: 100vw;
-  height: 100vw;
   background-image: url(images/background.png);
-  background-position: center;
+  background-position: top;
+  min-height: 100vh;
+  min-width: 208vh;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -18,7 +18,7 @@
 
 .logo {
   width: 200px;
-  padding: 30px 10px;
+  padding: 20px 10px;
   cursor: pointer;
   border-radius: 60px;
 }
@@ -29,6 +29,7 @@
   transform: translateY(-50%);
   color: #000000;
   font-size: 30px;
+  padding-top: 35%;
 }
 .content h1 {
   font-size: 90px;
